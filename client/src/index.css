@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* navbar css */
+.navbar{
+  font-family: golroie;
+  font-size: 20px;
+  line-height: 10px;
+  box-shadow: 0px 8px 6px -6px gray;
+  background-color: #65d5e1;
+ 
+  
+}
+
+.nav-link{
+ font-weight: 300;
+}
+.active{
+  border-bottom:1px solid black
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 25px;
+  font-family:" roboto";
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.footer{
+  color: white;
+  padding: 25px;
+  background-color: black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.footer a:hover{
+  color: rgb(39, 111, 198);
+  border-bottom: 1px solid blanchedalmond;
+}
+
+
+.pnf{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.row{
+margin-top: 100px;
+margin-left: 100px;
+
+}
